@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="id"
+        android:id="@+id/edtId"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Ten"
+        android:id="@+id/edtTen"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Tuoi"
+        android:id="@+id/edtTuoi"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Dia Chi"
+        android:id="@+id/edtDiaChi"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Ten Lop"
+        android:id="@+id/edtNameClass"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:id="@+id/bntAdd"
+        android:text="Thêm Sinh Vien "
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:id="@+id/bntEdt"
+        android:text="Sửa Thông Tin Sinh Viên"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:id="@+id/bntDelete"
+        android:text="Xóa Sinh Viên"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:id="@+id/bntShow"
+        android:text="Hiển Thị Danh Sách"
+        />
+
+</LinearLayout>
